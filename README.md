@@ -1,4 +1,4 @@
-# Daylist
+https://github.com/sonukumar/daylist-app# Daylist
 
 Daylist ek minimal aur modern React + TypeScript task manager app hai. Isme aap tasks add kar sakte ho, priority assign kar sakte ho, due date set kar sakte ho, aur list ko `All`, `Today`, `Upcoming`, `Completed` views ke through filter kar sakte ho.
 
