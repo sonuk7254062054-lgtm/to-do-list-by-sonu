@@ -1,26 +1,30 @@
-https://github.com/sonukumar/daylist-app# Daylist
+# Daylist
 
-Daylist ek minimal aur modern React + TypeScript task manager app hai. Isme aap tasks add kar sakte ho, priority assign kar sakte ho, due date set kar sakte ho, aur list ko `All`, `Today`, `Upcoming`, `Completed` views ke through filter kar sakte ho.
+Daylist is a clean and minimal task manager built with React and TypeScript. It helps you organize work in a calm, focused way by letting you add tasks, set priorities, assign due dates, filter views, and track progress.
 
-Ye app localStorage ke through browser me data save karta hai, isliye refresh ke baad bhi tasks rahega.
+This project stores tasks in the browser using localStorage so your list stays available even after a refresh.
 
 ## Features
 
-- Add new task with title, priority, and due date
-- Search tasks by title
-- Filter by view: All / Today / Upcoming / Completed
-- Mark task as complete or incomplete
-- Delete task
-- Progress tracking and summary cards
+- Add new tasks with title, priority, and due date
+- Search tasks by name
+- View tasks by:
+  - All
+  - Today
+  - Upcoming
+  - Completed
+- Mark tasks as complete or incomplete
+- Delete tasks
+- Check overall progress percentage
 - Responsive design for desktop and mobile
-- Data persists in browser using localStorage
+- Task persistence in browser storage
 
 ## Tech Stack
 
 - React
 - TypeScript
 - Vite
-- Lucide React
+- Lucide React Icons
 - CSS
 
 ## Project Structure
@@ -48,7 +52,7 @@ npm install
 npm run dev
 ```
 
-Then open the local URL shown in terminal, usually:
+Open the local URL shown in the terminal, usually:
 
 ```text
 http://127.0.0.1:5173/
@@ -60,40 +64,35 @@ http://127.0.0.1:5173/
 npm run build
 ```
 
-## Why this project is useful
+## Why this project
 
-This project is a simple example of how to build a productivity app with:
+This project is a great example of building a small but practical productivity app using:
 
 - React state management
-- TypeScript types for safe data handling
-- localStorage for persistence
-- reusable UI logic
-- responsive CSS design
+- TypeScript type safety
+- Browser-based persistence with localStorage
+- Modular UI structure
+- Responsive styling
 
-## GitHub Publish / Push Guide
+## GitHub Repository Setup
 
-This project is ready to be pushed to GitHub.
-
-1. Create a new repository on GitHub.
-2. Run:
+After creating your GitHub repository, run:
 
 ```bash
-git init -b main
-git add .
-git commit -m "Initial commit"
 git remote add origin https://github.com/<your-username>/<your-repo-name>.git
+git branch -M main
 git push -u origin main
 ```
 
-## Live Preview URL
+Example:
 
-Once deployed, the project can be accessed through the deployed URL, for example:
-
-```text
-https://github.com/<your-username>/<your-repo-name>
+```bash
+git remote add origin https://github.com/sonukumar/to-do-list-by-sonu.git
+git branch -M main
+git push -u origin main
 ```
 
-For local development, use:
+## Local Preview
 
 ```text
 http://127.0.0.1:5173/
@@ -105,4 +104,4 @@ This project is open for learning and personal use.
 
 ## Author
 
-Built as a learning project in React + TypeScript.
+Built by Sonu Kumar as a learning project in React + TypeScript.
